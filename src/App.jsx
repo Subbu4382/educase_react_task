@@ -8,7 +8,6 @@ export default function App() {
   return (
     <BrowserRouter>
       <div className=" min-h-screen flex justify-center items-center">
-        {/* Mobile UI Container */}
         <div className="w-[375px] h-[750px] border-2 border-gray-300 rounded-sm bg-gray-50 shadow-xl overflow-hidden">
           <Routes>
             <Route path="/" element={<Home />} />
